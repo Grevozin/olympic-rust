@@ -1,5 +1,5 @@
 #[macro_use]
-mod utils;
+mod utils; // Test change
 
 fn main() {
     readln!(x: i64);
