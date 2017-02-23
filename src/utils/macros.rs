@@ -1,10 +1,3 @@
-pub use std::cmp::Ordering;
-pub use std::collections::VecDeque;
-pub use std::fmt::{Display, Debug, Formatter, Error};
-pub use std::ops::{Mul, Sub, Add, Index, IndexMut, Range};
-pub use std::str::FromStr;
-pub use std::string::ParseError;
-
 /// Reads a finite number of input tokens from stdin, divided by spaces:
 /// ``````
 /// readln!(x: i64, y: f64, z: String);

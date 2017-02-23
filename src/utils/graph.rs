@@ -1,6 +1,11 @@
+use std::collections::VecDeque;
+
+
 type Index2d = (usize, usize);
 type BoolMap = Vec<Vec<bool>>;
 type RectangleBfs<'a> = Bfs<'a, Index2d, BoolMap, RectangleGraph>;
+
+const MAXN: usize = 1000;
 
 struct RectangleGraph {
     width: usize,
