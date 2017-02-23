@@ -1,0 +1,6 @@
+[package]
+name = "Olympic-Rust"
+version = "0.1.0"
+authors = ["Grevozin"]
+
+[dependencies]
