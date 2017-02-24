@@ -3,4 +3,12 @@ name = "olympic-rust"
 version = "0.1.0"
 authors = ["Grevozin"]
 
+[lib]
+name = "olympic_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "main_file"
+path = "src/main.rs"
+
 [dependencies]

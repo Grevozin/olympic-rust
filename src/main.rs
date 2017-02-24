@@ -1,5 +1,5 @@
 #[macro_use]
-mod utils; // Test change
+extern crate olympic_lib;
 
 fn main() {
     readln!(x: i64);
